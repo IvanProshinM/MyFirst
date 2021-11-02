@@ -1,0 +1,468 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html, body {
+    width: 100%;
+    height: 2893px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 30px;
+}
+
+.container_1 {
+    position: absolute;
+    height: 30px;
+    width: 760px;
+    background-color: black;
+    margin-left: 388px;
+
+}
+
+.row_1 {
+    margin-left: 0;
+    margin-right: 0;
+    height: 30px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+.support {
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.number_support {
+    padding-top: 10px;
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+}
+
+.currency_choice {
+    position: static;
+    width: 397px;
+    height: 30px;
+    display: inline-block;
+}
+
+.currency {
+    padding-left: 345px;
+    padding-right: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    color: white;
+
+}
+
+.currency_choose {
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    padding-left: 34px;
+    padding-top: 4px;
+}
+
+.users_account {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+}
+
+.account_icon {
+    position: absolute;
+    padding-left: 19px;
+
+}
+
+.account_text {
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+.search_part {
+    margin: 0;
+    position: absolute;
+    width: 49px;
+    height: 30px;
+    display: inline-block;
+}
+
+.search {
+    position: relative;
+    margin: 0;
+    padding-top: 9px;
+    padding-left: 5px;
+}
+
+.container_2 {
+    position: absolute;
+    width: 760px;
+    height: 180px;
+    margin-left: 388px;
+}
+
+.row_2 {
+    position: relative;
+    padding-left: 15px;
+    height: 87px;
+    display: block;
+    padding-top: 10px;
+
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    top: 45px;
+}
+
+.cart {
+    position: relative;
+    display: inline-block;
+    width: 650px;
+    left: 80px;
+    top: -20px;
+
+}
+
+.cart_table {
+    border-collapse: collapse;
+    display: inline-block;
+    padding-left: 430px;
+}
+
+
+.users_cart {
+    padding-left: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0;
+    border: 1px solid #d6d6d6;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: grey;
+
+}
+
+.users_purchases {
+    margin: 0;
+    border: 1px solid #d6d6d6;
+    width: 213px;
+    padding-left: 131px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: grey;
+    background: #fafafa;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.show_cart {
+    position: absolute;
+    padding-left: 135px;
+    padding-top: 7px;
+}
+
+.cart_image {
+    position: absolute;
+    top: 53px;
+    right: 190px;
+}
+
+.navigation_menu {
+    margin: 0;
+    width: 730px;
+    height: 48px;
+    background-color: #fd926d;
+}
+
+.menu_text {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 17px;
+    padding-top: 15px;
+}
+
+.open_menu_icon {
+    position: relative;
+    left: 691px;
+    top: -23px;
+}
+
+.season_collection {
+    width: 760px;
+    height: 350px;
+    background-color: #f6f3ec;
+    margin-top: 105px;
+
+}
+
+.collection_name {
+    position: relative;
+    /*    border: 2px solid red;*/
+    width: 330px;
+    height: 240px;
+    top: -300px;
+    left: 40px;
+    text-align: center;
+
+}
+
+.coll_up_text {
+    font-family: 'LuxuryRoyaleJF', sans-serif;
+    font-size: 26px;
+"LuxuryRoyaleJF"
+
+}
+
+.coll_mid_text {
+    font-family: 'HelveticaNeueLTStd HvCn', sans-serif;
+    line-height: 0.75;
+    font-size: 71px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #bd9ba2, #fcb88d);
+
+}
+
+.coll_low_text {
+    font-family: 'MYRIADPRO-REGULAR.OTF', sans-serif;
+    font-size: 27px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: #78645d;
+}
+
+.left {
+    position: absolute;
+    align-content: center;
+    color: #a2948d;
+    width: 56px;
+    top: 20px;
+    left: 75px;
+
+}
+
+.right {
+    position: absolute;
+    align-content: center;
+    color: #a2948d;
+    width: 56px;
+    top: 20px;
+    left: 200px;
+}
+
+.low {
+    position: absolute;
+    color: #a2948d;
+    width: 300px;
+    left: 15px;
+    size: 20px;
+    border: none;
+    margin-top: 5px;
+    border-top: 4px solid #78645d;
+    border-bottom: 2px solid #78645d;
+}
+
+.Shop_now {
+    position: relative;
+    margin: 0;
+    height: 43px;
+    width: 116px;
+    background-color: #fd926d;
+    left: 100px;
+    top: 10px;
+
+
+}
+
+.Shop_now_text {
+    font-family: 'MYRIADPRO-REGULAR.OTF', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 15px;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.Shop_now_icon {
+    position: relative;
+    top: -2px;
+    left: 85px;
+}
+
+.slide_left {
+    position: absolute;
+    width: 30px;
+    height: 117px;
+    top: 315px;
+    background-color: white;
+    border-left: solid #f6f3ec;
+}
+
+.slide_left_icon {
+    padding-left: 7px;
+    padding-top: 51px;
+}
+
+.slide_right {
+    position: absolute;
+    width: 30px;
+    height: 117px;
+    top: 315px;
+    left: 729px;
+    background-color: white;
+    border-right: solid #f6f3ec;
+}
+
+.slide_right_icon {
+    padding-left: 7px;
+    padding-top: 51px;
+}
+
+.transfer_stick {
+    position: absolute;
+    top: 545px;
+    width: 158px;
+    height: 7px;
+    background-color: #c5c2bd;
+}
+
+.slide_circles {
+    width: 760px;
+    height: 55px;
+    padding-left: 314px;
+    padding-top: 22px;
+}
+
+.circle_menu {
+    width: 10px;
+    height: 10px;
+    background: #867a76;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.row_4 {
+    width: 760px;
+    height: 344px;
+}
+
+.email_field {
+    position: relative;
+    width: 760px;
+    height: 55px;
+    background-color: #ededed;
+    margin-top: -15px;
+}
+
+.email_field_text {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #6b6b6b;
+    padding-top: 17px;
+    padding-left: 13px;
+    display: inline-block;
+    margin-right: 0;
+    top: 4px;
+}
+
+.email_field_input {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 132px;
+    height: 28px;
+    background-color: white;
+    display: inline-block;
+
+}
+
+.add_email_address {
+    position: absolute;
+    width: 28px;
+    height: 26px;
+    background-color: #fd926d;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 147px;
+    border-bottom: solid #dd6b44;
+    border-width: 3px;
+}
+
+.add_email_address_icon {
+    position: absolute;
+    left: 8px;
+    top: 5px
+}
+
+.add_email_address_text {
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    color: #b4b4b4;
+    padding-top: 4px;
+    padding-left: 9px;
+    margin-top: 3px;
+}
+
+.keeping_in_touch_text {
+    position: relative;
+    padding-top: 20px;
+    left: 410px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #b4b4b4;
+    display: inline-block;
+}
+.keeping_in_touch_icons {
+    position: absolute;
+    width: 165px;
+    height: 54px;
+    top: 0;
+    right: 15px;
+
+}
+.facebook {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: #f7f7f7;
+}
+.twitter {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 55px;
+}
+.pinterest {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: #f7f7f7;
+    left: 110px;
+
+}

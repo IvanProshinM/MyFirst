@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'LuxuryRoyaleJF';
+    src:url("fonts/luxuryroyalejf-webfont.woff");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd HvCn';
+    src:url("fonts/HelveticaNeueLTStd HvCn.otf");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'MYRIADPRO-REGULAR.OTF';
+    src:url("fonts/MYRIADPRO-REGULAR.OTF");
+    font-style: normal;
+    font-weight: 700;
+}
