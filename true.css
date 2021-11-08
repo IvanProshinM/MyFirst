@@ -1,0 +1,49 @@
+.header-true-version {
+    height: 30px;
+    background-color: black;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    color: white;
+    line-height: 30px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    border-left: 1px solid #444444;
+}
+
+.header-right ul {
+    text-align: right;
+}
+
+.header-right li {
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #444444;
+}
+
+.header-currency_arrow {
+    line-height: 30px;
+    display: inline-block;
+}
+.header-currency_arrow img {
+    vertical-align: middle;
+}
+.header-account {
+    line-height: 30px;
+}
+.header-account-icon {
+    float: left;
+    margin-right: 10px;
+}
+.header-account-icon img {
+    vertical-align: middle;
+}
+
+.header_search img {
+    vertical-align: middle;
+}
