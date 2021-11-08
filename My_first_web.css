@@ -23,7 +23,6 @@ header {
 .container_1 {
     height: 30px;
     background-color: black;
-
 }
 
 .row_1 {
@@ -56,41 +55,28 @@ header {
     font-size: 11px;
     color: white;
     text-transform: uppercase;
-    line-height: 30px
 }
 
 .number {
     font-family: "Arial", sans-serif;
     font-size: 12px;
     color: white;
-    line-height: 30px
 }
 
 .currency_choose {
-    vertical-align: middle;
-    padding-bottom: 2px;
-    margin-left: 345px;
     line-height: 30px;
+    display: inline-block;
 }
 
 .currency_text {
     font-family: "Arial", sans-serif;
     font-size: 11px;
     color: white;
-    line-height: 30px;
 }
 
-.users_account {
-    position: relative;
-    width: 130px;
-    height: 30px;
-    display: inline-block;
-}
 
 .account_icon {
-    position: absolute;
-    padding-left: 19px;
-
+    line-height: 30px;
 }
 
 .account_text {
@@ -98,15 +84,11 @@ header {
     font-size: 11px;
     color: white;
     text-transform: uppercase;
-    padding-left: 40px;
-    padding-right: 0;
+    line-height: 30px;
 }
 
 .search_part {
     margin: 0;
-    position: absolute;
-    width: 49px;
-    height: 30px;
     display: inline-block;
 }
 
