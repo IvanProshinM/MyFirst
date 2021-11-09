@@ -29,32 +29,44 @@ header {
     height: 30px;
     font-size: 0;
 }
+
 .support_part {
     height: 30px;
-    width: 867px;
-    display: inline-block;
+    width: 737px;
+    float: left;
+    padding-left: 114px;
 }
+
 .currency {
     height: 30px;
-    width: 75px;
-    display: inline-block;
+    width: 70px;
+    float: left;
+    border-right: 1px solid #444444;
+    border-left: 1px solid #444444;
 }
+
 .account {
     height: 30px;
-    width: 127px;
-    display: inline-block;
+    width: 126px;
+    float: left;
+    border-right: 1px solid #444444;
 }
+
 .search {
     height: 30px;
     width: 35px;
-    display: inline-block;
+    border-right: 1px solid #444444;
+    margin-right: 110px;
+    float: right;
+
 }
 
 .support {
-    font-family: "Arial", sans-serif;
+    font-family: "Arial Regular", sans-serif;
     font-size: 11px;
     color: white;
     text-transform: uppercase;
+    line-height: 30px;
 }
 
 .number {
@@ -65,103 +77,106 @@ header {
 
 .currency_choose {
     line-height: 30px;
-    display: inline-block;
+    padding-left: 6px;
 }
 
 .currency_text {
-    font-family: "Arial", sans-serif;
+    font-family: "Arial Regular", sans-serif;
     font-size: 11px;
     color: white;
+    line-height: 30px;
+    padding-left: 15px;
 }
 
 
 .account_icon {
     line-height: 30px;
+    padding-left: 14px;
+    padding-top: 7px;
 }
 
 .account_text {
-    font-family: "Arial", sans-serif;
+    font-family: "Arial Regular", sans-serif;
     font-size: 11px;
     color: white;
     text-transform: uppercase;
-    line-height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-.search_part {
-    margin: 0;
-    display: inline-block;
+#magnifier {
+    padding-left: 8px;
+    padding-top: 8px;
 }
-
 
 .container_2 {
     height: 180px;
 }
 
 .row_2 {
-    position: relative;
-    padding-left: 15px;
     height: 87px;
-    display: block;
-    padding-top: 10px;
-
 }
 
 .logo {
-    position: relative;
-    display: inline-block;
-    top: 45px;
+    margin-top: 42px;
+    margin-left: 114px;
+    float: left;
 }
 
+.models {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-left: 148px;
+    margin-top: 46px;
+}
+.new {
+    padding-left: 28px;
+}
+.acordeon {
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
 .cart {
-    position: relative;
-    display: inline-block;
-    width: 650px;
-    left: 80px;
-    top: -20px;
+   float: right;
+    margin-top: 21px;
+    margin-right: 115px;
 
 }
 
 .cart_table {
     border-collapse: collapse;
-    display: inline-block;
-    padding-left: 430px;
+    width: 214px;
 }
 
 .users_cart {
-    padding-left: 7px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin: 0;
     border: 1px solid #d6d6d6;
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 12px;
     color: grey;
+    line-height: 31px;
+
 
 }
 
 .users_purchases {
-    margin: 0;
     border: 1px solid #d6d6d6;
-    width: 213px;
-    padding-left: 131px;
     font-family: "Arial", sans-serif;
     font-size: 14px;
     color: grey;
     background: #fafafa;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    line-height: 32px;
+
 }
 
 .show_cart {
-    position: absolute;
-    padding-left: 135px;
-    padding-top: 7px;
+    float: right;
+    margin-top: 14px;
+    margin-right: 11px;
 }
 
 .cart_image {
-    position: absolute;
-    top: 53px;
-    right: 190px;
+    float: left;
 }
 
 .navigation_menu {
