@@ -14,11 +14,15 @@ html, body {
 header {
     height: 30px;
 }
+
 .wrapper {
     margin: 0 auto;
     width: 970px;
 }
-
+.wrapper_wide {
+    margin: 0;
+    width: 1200px;
+}
 .container_1 {
     height: 30px;
     background-color: black;
@@ -74,6 +78,7 @@ header {
     width: 34px;
 
 }
+
 .search_icon {
     display: block;
     height: 30px;
@@ -82,6 +87,7 @@ header {
     border-right: 1px solid #444444;
     width: 34px;
 }
+
 .search_icon:before {
     content: '';
     background-image: url("Loopa.png");
@@ -157,7 +163,7 @@ header {
     color: white;
     text-transform: uppercase;
     margin-right: 15px;
-line-height: 30px;
+    line-height: 30px;
 }
 
 #magnifier {
@@ -187,6 +193,7 @@ line-height: 30px;
     height: 28px;
     margin-top: 42px;
 }
+
 .models {
     font-family: "Arial Regular", sans-serif;
     font-size: 16px;
@@ -242,7 +249,7 @@ line-height: 30px;
     text-transform: uppercase;
     font-size: 11px;
     color: grey;
-    margin-right:11px;
+    margin-right: 11px;
     margin-top: 9px;
 }
 
@@ -257,16 +264,119 @@ line-height: 30px;
     margin-left: 10px;
     line-height: 31px;
 }
+
 .crazy_summer {
-    display: block;
+    text-align: center;
+    margin-top: 19px;
 }
-.crazy_summer:before {
+
+.slide_circles {
+    margin-left: 690px;
+}
+
+.circles {
+    width: 10px;
+    height: 10px;
+    background: #867a76;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 29px;
+    margin-right: 15px;
+
+}
+
+.email {
+    margin-top: 32px;
+    margin-left: 153px;
+    height: 55px;
+    background: #ededed;
+    width: 1200px;
+}
+
+.email_left {
+    float: left;
+}
+
+
+.email_right {
+    float: right;
+}
+.email_field {
+    margin-left: 113px;
+    line-height: 55px;
+}
+.add_email_address {           /* спроси у Садыха, как так выходит все в одну строку*/
+    float: left;
+}
+.stay {
+    float: left;
+    font-size: 12px;
+    font-family: "Arial Regular", sans-serif;
+    color: #808080;
+}
+.email_text {
+    float: right;
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    color: #9f9f9f;
+    background-color: white;
+    margin-top: 13px;
+    line-height: 28px;
+    margin-left: 10px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+.add_email {
+    float: right;
+    height: 26px;
+    width: 28px;
+    background: #fd926d;
+    margin-top: 14px;
+    border-bottom: 3px solid #dd6b44;
+}
+.add_symbol {
+    float: left;
+    display: block;
+    height: 30px;
+}
+
+.add_symbol {
     content: '';
-    background-image: url("Montage_1.png");
+    background-image: url("email_adress_icon.png");
     background-size: cover;
     position: absolute;
-    width: 1200px;
-    height: 440px;
-    margin-top: 19px;
-    margin-left: 352px;
+    width: 11px;
+    height: 11px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.social_nets {
+   line-height: 56px;
+    margin-right: 115px;
+}
+.find {
+    float: left;
+    font-family: "Arial Regular",sans-serif;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.facebook {
+    float: left;
+    padding-right: 23px;
+    padding-left: 23px;
+    background: #f7f7f7;
+}
+
+.twitter {
+    float: left;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.pinterest {
+    float: left;
+    padding-right: 17px;
+    padding-left: 17px;
+    background: #f7f7f7;
 }
