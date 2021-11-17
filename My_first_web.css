@@ -19,10 +19,12 @@ header {
     margin: 0 auto;
     width: 970px;
 }
+
 .wrapper_wide {
     margin: 0;
     width: 1200px;
 }
+
 .container_1 {
     height: 30px;
     background-color: black;
@@ -271,7 +273,7 @@ header {
 }
 
 .slide_circles {
-    margin-left: 690px;
+    margin-left: 692px;
 }
 
 .circles {
@@ -280,14 +282,14 @@ header {
     background: #867a76;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 29px;
-    margin-right: 15px;
+    margin-top: 30px;
+    margin-right: 17px;
 
 }
 
 .email {
     margin-top: 32px;
-    margin-left: 153px;
+    margin-left: 160px;
     height: 55px;
     background: #ededed;
     width: 1200px;
@@ -301,19 +303,23 @@ header {
 .email_right {
     float: right;
 }
+
 .email_field {
     margin-left: 113px;
     line-height: 55px;
 }
-.add_email_address {           /* спроси у Садыха, как так выходит все в одну строку*/
+
+.add_email_address { /* спроси у Садыха, как так выходит все в одну строку*/
     float: left;
 }
+
 .stay {
     float: left;
     font-size: 12px;
     font-family: "Arial Regular", sans-serif;
     color: #808080;
 }
+
 .email_text {
     float: right;
     font-size: 12px;
@@ -327,6 +333,7 @@ header {
     padding-left: 8px;
     padding-right: 20px;
 }
+
 .add_email {
     float: right;
     height: 26px;
@@ -335,6 +342,7 @@ header {
     margin-top: 14px;
     border-bottom: 3px solid #dd6b44;
 }
+
 .add_symbol {
     float: left;
     display: block;
@@ -351,16 +359,19 @@ header {
     margin-left: 8px;
     margin-top: 8px;
 }
+
 .social_nets {
-   line-height: 56px;
+    line-height: 56px;
     margin-right: 115px;
 }
+
 .find {
     float: left;
-    font-family: "Arial Regular",sans-serif;
+    font-family: "Arial Regular", sans-serif;
     font-size: 12px;
     margin-right: 15px;
 }
+
 .facebook {
     float: left;
     padding-right: 23px;
@@ -379,4 +390,51 @@ header {
     padding-right: 17px;
     padding-left: 17px;
     background: #f7f7f7;
+}
+
+.advertising_images_block {
+    margin-left: 276px;
+    margin-top: 40px;
+}
+
+.advertising_images_block_right {
+    float: right;
+    margin-right: 275px;
+}
+
+.advertising_images_block_left {
+    float: left;
+}
+
+.summer_party {
+    display: block;
+}
+
+.best_sellers {
+    position: relative;
+    float: left;
+}
+
+.fall_leather {
+    position: absolute;
+    margin-right: 280px;
+}
+.fall_leather_shop_now {
+    float: left;
+    position: absolute;
+    background: #4fafa0;
+    font-size: 12px;
+    font-family: "HelveticaNeueLTStd HvCn", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 8px;
+    padding-right: 12px;
+    width: 77px;
+    line-height: 29px;
+    margin-left: 273px;
+    margin-top: 122px;
+}
+.shop_now_choose {
+    float: right;
+    margin-top: 12px;
 }
