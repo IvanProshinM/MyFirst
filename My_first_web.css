@@ -17,7 +17,7 @@ header {
 
 .wrapper {
     margin: 0 auto;
-    width: 970px;
+    width: 1200px;
 }
 
 .wrapper_wide {
@@ -41,10 +41,12 @@ header {
 }
 
 .float_left {
+    margin-left: 115px;
     float: left;
 }
 
 .float_right {
+    margin-right: 114px;
     float: right;
 }
 
@@ -194,6 +196,7 @@ header {
     width: 120px;
     height: 28px;
     margin-top: 42px;
+    margin-left: 115px;
 }
 
 .models {
@@ -216,6 +219,7 @@ header {
 .cart {
     float: right;
     margin-top: 21px;
+    margin-right: 115px;
 }
 
 .cart_table {
@@ -273,7 +277,7 @@ header {
 }
 
 .slide_circles {
-    margin-left: 692px;
+    text-align: center;
 }
 
 .circles {
@@ -288,11 +292,9 @@ header {
 }
 
 .email {
-    margin-top: 32px;
-    margin-left: 160px;
+    margin-top: 31px;
     height: 55px;
     background: #ededed;
-    width: 1200px;
 }
 
 .email_left {
@@ -349,7 +351,7 @@ header {
     height: 30px;
 }
 
-.add_symbol {
+.add_symbol:before {
     content: '';
     background-image: url("email_adress_icon.png");
     background-size: cover;
@@ -393,13 +395,14 @@ header {
 }
 
 .advertising_images_block {
-    margin-left: 276px;
+    margin-left: 230px;
     margin-top: 40px;
+    height: 390px;
 }
 
 .advertising_images_block_right {
     float: right;
-    margin-right: 275px;
+    margin-right: 230px;
 }
 
 .advertising_images_block_left {
@@ -419,6 +422,7 @@ header {
     position: absolute;
     margin-right: 280px;
 }
+
 .fall_leather_shop_now {
     float: left;
     position: absolute;
@@ -434,7 +438,157 @@ header {
     margin-left: 273px;
     margin-top: 122px;
 }
+
 .shop_now_choose {
     float: right;
     margin-top: 12px;
+}
+
+.new_models_menu {
+    height: 502px;
+}
+
+.hot {
+    margin-left: 115px;
+    text-align: center;
+    float: left;
+    width: 138px;
+    height: 47px;
+    line-height: 47px;
+    background: #fd926d;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.not_hot {
+    margin-left: 10px;
+    text-align: center;
+    width: 138px;
+    height: 47px;
+    line-height: 47px;
+    float: left;
+    color: #bababa;
+    text-transform: uppercase;
+}
+
+.arrow_right {
+    float: right;
+    width: 47px;
+    height: 47px;
+    background: #00b3ff;
+}
+
+.arrow_left {
+    margin-right: 115px;
+    float: right;
+    width: 47px;
+    height: 47px;
+    background: black;
+}
+
+.new_models_background {
+    height: 455px;
+    background: #fd926d;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearance_part {
+
+}
+
+.clearance {
+    display: block;
+
+
+}
+
+.clearance:before {
+    content: '';
+    background-image: url("clearance.png");
+    background-size: cover;
+    position: absolute;
+    width: 160px;
+    height: 156px;
+    margin-left: 520px;
+    margin-top: 24px;
+}
+
+.left_band {
+    float: left;
+    width: 390px;
+    size: 1px;
+    color: #d8d8d8;
+    margin-top: 105px;
+    margin-left: 115px;
+}
+
+.right_band {
+    float: right;
+    width: 390px;
+    size: 1px;
+    color: #d8d8d8;
+    margin-top: 105px;
+    margin-right: 115px;
+}
+
+.four_riders_of_apocalypse {
+    margin-top: 206px;
+    margin-left: 232px;
+
+}
+
+.nadia_dress {
+    position: relative;
+    float: left;
+}
+
+.sofi_blouse {
+    float: left;
+    margin-left: 30px;
+}
+
+.gooding_shorts {
+    float: left;
+    margin-left: 30px;
+}
+
+.mimosa_dress {
+    float: right;
+    margin-right: 230px;
+}
+
+.add_to_cart {
+    height: 29px;
+    width: 110px;
+    background-color: #fd926d;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 353px;
+    border-bottom: 3px solid #dd6b44;
+    font-size: 12px;
+    color: white;
+    line-height: 32px;
+    font-family: "Arial Regular", sans-serif;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.add_to_cart_icon {
+    display: block;
+}
+
+.add_to_cart_icon:before {
+    content: '';
+    background-image: url("email_adress_icon.png");
+    background-size: cover;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    margin-left: 86px;
+    margin-top: 9px;
 }
