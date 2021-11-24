@@ -592,3 +592,185 @@ header {
     margin-left: 86px;
     margin-top: 9px;
 }
+
+.brands {
+    margin-top: 660px;
+    font-family: "Arial Bold", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.favourite_brands {
+    text-align: center;
+}
+
+.left_line {
+    width: 505px;
+    float: left;
+    size: 1px;
+    color: #d8d8d8;
+    margin-top: 7px;
+}
+
+.right_line {
+    margin-top: 7px;
+    width: 505px;
+    float: right;
+    size: 1px;
+    color: #d8d8d8;
+}
+
+.addict {
+    float: left;
+    margin-left: 112px;
+    margin-top: 25px;
+}
+
+.addict_logo {
+    display: block;
+}
+
+.addict_logo:before {
+    content: '';
+    background-image: url("adddict.png");
+    background-size: cover;
+    position: absolute;
+    width: 83px;
+    height: 31px;
+}
+
+.abandon_shop {
+    float: left;
+    margin-left: 129px;
+    margin-top: 12px;
+}
+
+.abandon_shop_logo {
+
+    display: block;
+}
+
+.abandon_shop_logo:before {
+    content: '';
+    background-image: url("abandon_ship.png");
+    background-size: cover;
+    position: absolute;
+    width: 51px;
+    height: 57px;
+}
+
+.adidas {
+    float: left;
+    margin-left: 104px;
+    margin-top: 16px;
+}
+
+.adidas_logo {
+    display: block;
+}
+
+.adidas_logo:before {
+    content: '';
+    background-image: url("addidas.png");
+    background-size: cover;
+    position: absolute;
+    width: 57px;
+    height: 47px;
+}
+.boy_london {
+    float: left;
+    margin-left: 110px;
+    margin-top: 24px;
+}
+.boy_london_logo{
+    display: block;
+}
+.boy_london_logo:before {
+    content: '';
+    background-image: url("boy_london.png");
+    background-size: cover;
+    position: absolute;
+    width: 56px;
+    height: 38px;
+}
+.converse {
+    float: left;
+    margin-left: 102px;
+    margin-top: 35px;
+}
+.converse_logo{
+
+    display: block;
+}
+.converse_logo:before {
+    content: '';
+    background-image: url("converse.png");
+    background-size: cover;
+    position: absolute;
+    width: 84px;
+    height: 16px;
+}
+.calvin_klein {
+    float: left;
+    margin-top: 30px;
+    margin-left: 131px;
+}
+.calvin_klein_logo{
+    display: block;
+}
+.calvin_klein_logo:before {
+    content: '';
+    background-image: url("calvin_klein.png");
+    background-size: cover;
+    position: absolute;
+    width: 98px;
+    height: 19px;
+}
+.edwin {
+    float: left;
+    margin-top: 30px;
+    margin-left: 141px;
+}
+.edwin_logo{
+    display: block;
+}
+.edwin_logo:before {
+    content: '';
+    background-image: url("edwin.png");
+    background-size: cover;
+    position: absolute;
+    width: 69px;
+    height: 22px;
+}
+.grenson {
+    float: left;
+    margin-top: 29px;
+    margin-left: 125px;
+}
+.grenson_logo{
+    display: block;
+}
+.grenson_logo:before {
+    content: '';
+    background-image: url("grenson.png");
+    background-size: cover;
+    position: absolute;
+    width: 137px;
+    height: 27px;
+}
+.lower_band {
+    margin-top: 93px;
+}
+.about_lookshop {
+    margin-top: 27px;
+    text-align: center;
+}
+.look_shop_title {
+    font-family: "Arial Regular",sans-serif;
+    font-size: 24px;
+}
+.look_shop_text {
+    font-family: "Arial Regular",sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
